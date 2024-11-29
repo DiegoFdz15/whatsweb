@@ -135,7 +135,7 @@ const generar = (content) => {
         <div class="contenedor_mensajeIzquierda">
             <div class="divChatEnviado">
               ${content.data[i].mensaje}
-              <div class="divEnviado">${content.data[i].hora}</div>
+              <div class="divEnviado">${content.data[i].fecha} | ${content.data[i].hora}</div>
             </div>
         </div>`;
     } else if (content.data[i].emitidoPor != "Whatsapp") {
@@ -143,7 +143,7 @@ const generar = (content) => {
       <div class="contenedor_mensajeDerecha">
           <div class="divChatRespondido">
             ${content.data[i].mensaje}
-            <div class="divEnviado">${content.data[i].hora}</div>
+            <div class="divEnviado">${content.data[i].fecha} | ${content.data[i].hora}</div>
           </div>
       </div>
       `;
