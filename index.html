@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Subida de Archivo</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+    <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+    <main id="mainContainer">
+        <header>
+            <img src="assets/icon.svg" alt="logosite" class="imgLogo">
+            <h2>Whatsweb</h2>
+        </header>
+        <section class="secContainer">
+
+            <h1>Convierte tus chats exportados en chats legibles.</h1>
+            <div id="divFile">
+                <div id="divBtnElegir">
+                    <h2 id="btnElegir">Elegir un archivo</h2>
+                </div>
+                <p id="pFile">O arrastra y suelta tu archivo aquí </p>
+                <input type="file" name="fileToUpload" required accept=".txt" id="inpFile" />
+            </div>
+            <div class="divNum">
+                <h2>Ingrese la cantidad de mensajes a mostrar (default: 100)</h2>
+                <input type="number" name="cantidad" id="inpMSJs" value="100" placeholder="Cantidad:">
+            </div>
+            <div id="divBtn">
+                <button id="btnSubmit">Subir Archivo</button>
+            </div>
+        </section>
+        <footer>
+            &copy; Diego Fernandez 2024
+        </footer>
+    </main>
+</body>
+
+</html>

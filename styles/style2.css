@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: arial;
+}
+
+.imgLogo {
+  width: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.secContainer {
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#divFile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px dashed rgb(183, 176, 176);
+  min-height: 350px;
+}
+
+#btnElegir {
+  font-size: 16px;
+  text-align: center;
+}
+
+#divBtnElegir {
+  min-width: 200px;
+  max-width: 200px;
+  padding: 10px;
+  background-color: #81e650;
+  cursor: pointer;
+}
+
+#inpFile {
+  visibility: hidden;
+}
+
+.secContainer h1 {
+  width: 100%;
+}
+
+.divNum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#inpMSJs {
+  max-width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding-right: 5px;
+}
+
+#divBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+#btnSubmit {
+  min-width: 200px;
+  min-height: 30px;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+}
+
+footer {
+  padding-bottom: 30px;
+}

@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.div-main {
+  background-color: black;
+  padding-bottom: 30px;
+}
+.div-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.divChatEnviado {
+  min-width: 150px;
+  width: fit-content;
+  max-width: 500px;
+  min-height: 50px;
+  background-color: #22272b;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 20px;
+  position: relative;
+  color: #eaf8f3;
+  font-family: Arial;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.divChatEnviado div:nth-child(2) {
+  display: flex;
+  align-items: end;
+  font-size: 12px;
+  color: #80a395;
+  padding-left: 5px;
+}
+
+.divChatRespondido {
+  min-width: 10px;
+  width: fit-content;
+  max-width: 500px;
+  min-height: 50px;
+  background-color: #174c38;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 20px;
+  position: relative;
+  color: #eaf8f3;
+  font-family: Arial;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.divChatRespondido div:nth-child(2) {
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  color: #80a395;
+}
+
+.divChatAlerta {
+  min-width: 150px;
+  width: fit-content;
+  max-width: 500px;
+  min-height: 30px;
+  background-color: #11191c;
+  border-radius: 20px;
+  margin-left: 20px;
+  position: relative;
+  color: #eaf8f3;
+  font-family: Arial;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: right;
+}
+
+.contenedor_mensaje {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.contenedor_mensajeDerecha {
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  text-align: right;
+}
+
+.contenedor_mensajeIzquierda {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+  text-align: left;
+}
+
+.divHeader {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #091114;
+  width: 50%;
+  max-width: 1000px;
+  min-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.divLogo {
+  width: 60px;
+  height: 60px;
+  background-color: #f5fafa;
+  border-radius: 100%;
+}
+
+.divNombre {
+  font-family: arial;
+  font-size: larger;
+  color: #f5fafa;
+}
+
+.divActividad {
+  font-family: arial;
+  font-size: small;
+  color: #f5fafa;
+}
+
+.divEnviado {
+  font-size: 12px;
+  color: #eaf8f3;
+}
